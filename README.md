@@ -24,3 +24,6 @@ Também fiquei na dúvida se era pra fazer isso mesmo ou só ter sons pré defin
 
 ----------------------------
 Como estou sem conseguir rodar a plataforma se isso estiver bom, Pensei defazer só um component em um simples dashboard pro front end consumindo essa API e fazendo as modificações final, que depois seria só copiar pro dashboard de admin esse component. pode ser assim por enquanto?
+
+----------
+Vi agora que esqueci de por a pasta Sounds no gitignore, talvez deixar uma anotação pra por quando for passar pro Hust caso não seja bom subir os file mp3 pro github
