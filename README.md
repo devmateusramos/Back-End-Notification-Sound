@@ -7,7 +7,7 @@ Então usei o Multer pra receber o file MP3, mas não fiz nada que impedisse que
 Tem 3 rotas que estão em cada useCase: 
 ----------------------------
 importSound:
-Usa o multer pra receber o arquivo via Post e adiciona o nome do arquivo na tabela sounds, e o arquivo mp3 é adiciona na pasta que está na raiz chamada Sounds. É melhor assim mesmo ou devia por ele no Banco de Dados direto? Tinha pesquisado e visto que não era muito comum colocarem no Banco de dados o arquivo.
+Usa o multer pra receber o arquivo via Post e adiciona o nome do arquivo na tabela sounds, e o arquivo mp3 é adicionado na pasta que está na raiz chamada sounds. É melhor assim mesmo ou devia por ele no Banco de Dados direto? Tinha pesquisado e visto que não era muito comum colocarem no Banco de dados o arquivo.
 
 -----------------------------
 
@@ -23,7 +23,7 @@ O resto de definir duração essas coisas pensei de deixar valores pré-definido
 Também fiquei na dúvida se era pra fazer isso mesmo ou só ter sons pré definidos sem a pessoa adicionar.
 
 ----------------------------
-Como estou sem conseguir rodar a plataforma se isso estiver bom, Pensei defazer só um component em um simples dashboard pro front end consumindo essa API e fazendo as modificações final, que depois seria só copiar pro dashboard de admin esse component. pode ser assim por enquanto?
+Como estou sem conseguir rodar a plataforma se isso estiver bom, Pensei de fazer só um component em um simples dashboard pro front end consumindo essa API e fazendo as modificações final, que depois seria só copiar pro dashboard de admin esse component. pode ser assim por enquanto?
 
 ----------
-Vi agora que esqueci de por a pasta Sounds no gitignore, talvez deixar uma anotação pra por quando for passar pro Hust caso não seja bom subir os file mp3 pro github
+Vi agora que esqueci de por a pasta sounds no gitignore, talvez deixar uma anotação pra por quando for passar pro Hust caso não seja bom subir os file mp3 pro github
