@@ -1,6 +1,6 @@
 # Back-End-Notification-Sound
 
-O objetivo é que possa ser adiciona novos sons via API para notificação dos pedidos que são feitos no ecommerce
+O objetivo é que possa ser adicionado novos sons via API para notificação dos pedidos que são feitos no ecommerce
 
 Então usei o Multer pra receber o file MP3, mas não fiz nada que impedisse que enviassem outro tipo de file, tipei com any, uma dúvida que tô é se pode deixar assim por ser interno só vai ter o mesmo front end consumindo ou é melhor eu ver uma forma de assegurar que dê erro se alguem passar um arquivo sem ser mp3?
 
